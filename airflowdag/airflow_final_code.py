@@ -82,7 +82,7 @@ def post_validation(**kwargs):
     
     
     # Availability check
-    
+   
     
     if df_stagingzone[df_stagingzone.columns[0]].count() != 0: # df.columns[0] = 1st column
         # Count check
