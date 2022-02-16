@@ -52,7 +52,7 @@ def create_cluster(region_name, cluster_name='gokul_Cluster_' + str(datetime.now
 		
 		AutoTerminationPolicy = {"IdleTimeout": 300},
         VisibleToAllUsers=True,
-        JobFlowRole='Gr_ec2',
+        JobFlowRole='Gr_emrec2',
         ServiceRole='Gr_emr',
         Applications=[
             { 'Name': 'hadoop' },
